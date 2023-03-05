@@ -23,7 +23,9 @@ p {
     margin: 0;
     padding: 0;
 }
-
+a {
+    text-decoration: none;
+}
 body {
     margin: 0;
     padding: 0;
@@ -448,8 +450,6 @@ body {
     grid-template-columns: repeat(3, 1fr);
 }
 
-.review__item {}
-
 .reviews__card {
     background-color: #f7f7f7;
     padding: 0 30px 30px 30px;
@@ -489,10 +489,6 @@ body {
     padding-top: 100px;
 }
 
-.text-h2 {}
-
-.section__title {}
-
 .contacts__items {
     display: flex;
     justify-content: space-between;
@@ -501,6 +497,9 @@ body {
 .contacts__item {
     text-align: center;
     width: 255px;
+}
+.contact__item-text a {
+    color: inherit;
 }
 
 .contact__icon {
