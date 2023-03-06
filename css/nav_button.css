@@ -1,0 +1,28 @@
+.sidebar-nav {
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.8);
+    width: 250px;
+    height: 100vh;
+    transition: 0.7s ease;
+}
+.sidebar-nav_hide {
+    transform: translateX(-100%);
+}
+.sidebar-nav__title {
+    color: var(--accent-color);
+    text-align: center;
+}
+.sidebar-nav__items {
+    list-style: none;
+}
+.sidebar-nav__items a{
+    color: black;
+}
+.sidebar-nav__items a:hover{
+    color: var(--accent-color);
+}
+.burger {
+    position: fixed;
+    z-index: 1;
+}

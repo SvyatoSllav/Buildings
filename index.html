@@ -7,19 +7,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/nav_button.css">
     <title>Buildings_company</title>
 </head>
 
 <body>
-    <header class="header"><!-- Compiled and minified CSS -->
 
-        <!-- Compiled and minified JavaScript -->
-        
+    <section class="sidebar-nav sidebar-nav_hide">
+        <label>
+            <h2 class="text-h2 sidebar-nav__title">Menu</h2>
+            <ul class="sidebar-nav__items">
+                <li class="sidebar-nav__item">
+                    <h4 class="text-h4"><a href="#header">Header</a></h4>
+                </li>
+                <li class="sidebar-nav__item">
+                    <h4 class="text-h4"><a href="#about">About</a></h4>
+                </li>
+                <li class="sidebar-nav__item">
+                    <h4 class="text-h4"><a href="#services">Services</a></h4>
+                </li>
+                <li class="sidebar-nav__item">
+                    <h4 class="text-h4"><a href="#questions">Questions</a></h4>
+                </li>
+                <li class="sidebar-nav__item">
+                    <h4 class="text-h4"><a href="#reviews">Reviews</a></h4>
+                </li>
+                <li class="sidebar-nav__item">
+                    <h4 class="text-h4"><a href="#contacts">Contacts</a></h4>
+                </li>
+                <li class="sidebar-nav__item">
+                    <h4 class="text-h4"><a href="#footer">Footer</a></h4>
+                </li>
+            </ul>
+        </label>
+    </section>
+
+    <header id="header" class="header">
         <div class="container">
             <div class="header__title">
                 <img src="img/logo.svg" alt="Logo" class="header__logo">
@@ -34,7 +61,7 @@
         </div>
     </header>
 
-    <section class="about">
+    <section id="about" class="about">
         <div class="info">
             <div class="about__grid">
                 <div class="about__grid_item">
@@ -106,7 +133,7 @@
         </div>
     </section>
 
-    <section class="services">
+    <section id="services" class="services">
         <div class="container">
             <h2 class="text-h2 section__title">Чем мы занимаемся?</h2>
             <div class="services__items">
@@ -167,7 +194,7 @@
         </div>
     </section>
 
-    <section class="questions">
+    <section id="questions" class="questions">
         <div class="container">
             <h2 class="text-h2 section__title">Ответы на вопросы</h2>
             <div class="questions__items">
@@ -226,7 +253,7 @@
         </div>
     </section>
 
-    <section class="reviews">
+    <section id="reviews" class="reviews">
         <div class="container">
             <h2 class="text-h2 section__title">Отзывы о работе с нами</h2>
             <div class="reviews__cards">
@@ -288,7 +315,7 @@
         </div>
     </section>
 
-    <section class="contacts">
+    <section id="contacts" class="contacts">
         <div class="container">
             <h2 class="text-h2 section__title">Контакты</h2>
             <div class="contacts__items">
@@ -321,7 +348,7 @@
         </div>
     </section>
 
-    <footer class="footer">
+    <footer id="footer" class="footer">
         <div class="container">
             <div class="footer__info">
                 <p class="text-p">© 2019 Строительная компания</p>
@@ -330,8 +357,7 @@
         </div>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
+    <script src="js/main.js"></script>
 </body>
 
 </html>
