@@ -85,3 +85,12 @@
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+@media screen and (max-width: 500px) {
+    .request__wrapper {
+        flex-direction: column;
+    }
+    .request__send-mail {
+        margin-bottom: 20px;
+    }
+}
