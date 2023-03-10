@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/nav_button.css">
+    <link rel="stylesheet" href="css/modal-contact.css">
+    <script src="https://kit.fontawesome.com/c5a1a0d892.js" crossorigin="anonymous"></script>
     <title>Buildings_company</title>
 </head>
 
@@ -356,6 +358,32 @@
             </div>
         </div>
     </footer>
+
+    <div class="contact-modal-wrapper hide">
+        <div class="contact-modal">
+            <div class="contact-modal__header">
+                <h3 class="text-h3 contact-modal__title">Ваш запрос</h3>
+            </div>
+            <form action="" class="contact-form">
+                <div class="contact-form__field">
+                    <i class="fa-regular fa-envelope"></i>
+                    <input class="contact-form__input" type="email" id="mail" placeholder="Почта">
+                </div>
+                <div class="contact-form__field">
+                    <i class="fa-solid fa-user"></i>
+                    <input class="contact-form__input" type="text" id="user" required placeholder="Имя"><br>
+                </div>
+                <div class="contact-form__field">
+                    <i class="fa-regular fa-comment"></i>
+                    <input class="contact-form__input" type="text" id="user" required placeholder="Комментарий"><br>
+                </div>
+                <button class="contact-form__button">
+                    <input type="submit" value="Отправить">
+                </button>
+            </form>
+        </div>
+        <div class="overlay"></div>
+    </div>
 
     <script src="js/main.js"></script>
 </body>
